@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Background -->
+  <defs>
+    <radialGradient id="globeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6ba3d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003d99;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Globe shadow -->
+  <ellipse cx="150" cy="270" rx="100" ry="15" fill="rgba(0,0,0,0.2)"/>
+  
+  <!-- Globe -->
+  <circle cx="150" cy="150" r="120" fill="url(#globeGrad)" stroke="#003366" stroke-width="2"/>
+  
+  <!-- Water highlights -->
+  <circle cx="150" cy="150" r="118" fill="none" stroke="#87ceeb" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Continents (simplified) -->
+  <!-- Africa/Middle East -->
+  <path d="M 170 120 L 185 115 L 190 130 L 185 145 L 175 148 L 170 140 Z" fill="#90ee90" stroke="#2d5016" stroke-width="0.5"/>
+  
+  <!-- Europe -->
+  <path d="M 155 95 L 170 90 L 175 100 L 165 105 Z" fill="#90ee90" stroke="#2d5016" stroke-width="0.5"/>
+  
+  <!-- Asia -->
+  <path d="M 185 105 L 210 100 L 215 120 L 200 125 L 190 115 Z" fill="#90ee90" stroke="#2d5016" stroke-width="0.5"/>
+  
+  <!-- America -->
+  <path d="M 90 110 L 100 105 L 105 125 L 95 130 Z" fill="#7cb342" stroke="#2d5016" stroke-width="0.5"/>
+  
+  <!-- Australia -->
+  <path d="M 200 165 L 210 160 L 215 175 L 205 180 Z" fill="#7cb342" stroke="#2d5016" stroke-width="0.5"/>
+  
+  <!-- Grid lines -->
+  <circle cx="150" cy="150" r="120" fill="none" stroke="#003366" stroke-width="0.5" opacity="0.3" stroke-dasharray="5,5"/>
+  <line x1="30" y1="150" x2="270" y2="150" stroke="#003366" stroke-width="0.5" opacity="0.3"/>
+  <line x1="150" y1="30" x2="150" y2="270" stroke="#003366" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Rotation circles -->
+  <circle cx="150" cy="150" r="125" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- Marker pins -->
+  <!-- Dubai/MENA -->
+  <circle cx="188" cy="142" r="4" fill="#ff0000"/>
+  <circle cx="188" cy="142" r="2" fill="#ffcccc"/>
+  
+  <!-- Text -->
+  <text x="150" y="290" font-size="14" fill="#1a3a52" text-anchor="middle" font-weight="bold">Global MENA Presence</text>
+</svg>

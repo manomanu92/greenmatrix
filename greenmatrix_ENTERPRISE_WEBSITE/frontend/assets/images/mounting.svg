@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Roof line -->
+  <line x1="30" y1="140" x2="170" y2="140" stroke="#8b7355" stroke-width="8"/>
+  <!-- Mounting rails -->
+  <rect x="45" y="100" width="110" height="8" fill="#555" stroke="#333" stroke-width="1"/>
+  <rect x="45" y="130" width="110" height="8" fill="#555" stroke="#333" stroke-width="1"/>
+  <!-- Support brackets -->
+  <polygon points="50,100 40,130 60,130" fill="#666" stroke="#333" stroke-width="1"/>
+  <polygon points="100,100 90,130 110,130" fill="#666" stroke="#333" stroke-width="1"/>
+  <polygon points="150,100 140,130 160,130" fill="#666" stroke="#333" stroke-width="1"/>
+  <!-- Panel attached -->
+  <rect x="45" y="50" width="110" height="50" fill="#0066cc" stroke="#004a99" stroke-width="2"/>
+  <!-- Grid lines on panel -->
+  <line x1="80" y1="50" x2="80" y2="100" stroke="#004a99" stroke-width="1" opacity="0.5"/>
+  <line x1="115" y1="50" x2="115" y2="100" stroke="#004a99" stroke-width="1" opacity="0.5"/>
+  <line x1="45" y1="70" x2="155" y2="70" stroke="#004a99" stroke-width="1" opacity="0.5"/>
+  <!-- Bolts -->
+  <circle cx="55" cy="130" r="3" fill="#ffd700" stroke="#cc9900" stroke-width="1"/>
+  <circle cx="100" cy="130" r="3" fill="#ffd700" stroke="#cc9900" stroke-width="1"/>
+  <circle cx="145" cy="130" r="3" fill="#ffd700" stroke="#cc9900" stroke-width="1"/>
+</svg>

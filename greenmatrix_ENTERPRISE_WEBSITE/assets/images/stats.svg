@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300">
+  <!-- Background -->
+  <rect width="1000" height="300" fill="#f8f9fa"/>
+  
+  <!-- Bar 1 -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="60" height="120" fill="#0066ff" rx="5"/>
+    <text x="30" y="145" font-size="18" fill="#1a3a52" text-anchor="middle" font-weight="bold">500+</text>
+    <text x="30" y="165" font-size="12" fill="#666" text-anchor="middle">Projects</text>
+  </g>
+  
+  <!-- Bar 2 -->
+  <g transform="translate(350, 100)">
+    <rect x="0" y="0" width="60" height="170" fill="#00d4ff" rx="5"/>
+    <text x="30" y="195" font-size="18" fill="#1a3a52" text-anchor="middle" font-weight="bold">1000+</text>
+    <text x="30" y="215" font-size="12" fill="#666" text-anchor="middle">Installations</text>
+  </g>
+  
+  <!-- Bar 3 -->
+  <g transform="translate(600, 120)">
+    <rect x="0" y="0" width="60" height="150" fill="#0066ff" rx="5"/>
+    <text x="30" y="175" font-size="18" fill="#1a3a52" text-anchor="middle" font-weight="bold">50+</text>
+    <text x="30" y="195" font-size="12" fill="#666" text-anchor="middle">Partners</text>
+  </g>
+  
+  <!-- Bar 4 -->
+  <g transform="translate(850, 80)">
+    <rect x="0" y="0" width="60" height="190" fill="#00d4ff" rx="5"/>
+    <text x="30" y="215" font-size="18" fill="#1a3a52" text-anchor="middle" font-weight="bold">24/7</text>
+    <text x="30" y="235" font-size="12" fill="#666" text-anchor="middle">Support</text>
+  </g>
+  
+  <!-- Grid line -->
+  <line x1="50" y1="120" x2="950" y2="120" stroke="#ddd" stroke-width="1"/>
+</svg>

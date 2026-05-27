@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="aboutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#003d66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006b99;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="300" fill="url(#aboutGradient)"/>
+  
+  <!-- Building/factory icon -->
+  <g transform="translate(150, 80)">
+    <!-- Main building -->
+    <rect x="0" y="50" width="200" height="150" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+    <!-- Windows -->
+    <rect x="20" y="70" width="30" height="30" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <rect x="70" y="70" width="30" height="30" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <rect x="120" y="70" width="30" height="30" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <rect x="20" y="120" width="30" height="30" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <rect x="70" y="120" width="30" height="30" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <rect x="120" y="120" width="30" height="30" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <!-- Door -->
+    <rect x="80" y="160" width="40" height="40" fill="#8b4513" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Globe with MENA region -->
+  <g transform="translate(650, 100)">
+    <circle cx="0" cy="0" r="70" fill="#4da6ff" stroke="#003d99" stroke-width="2"/>
+    <!-- Africa outline -->
+    <path d="M -20 -50 L 0 -60 L 20 -50 L 30 -30 L 40 -10 L 35 10 L 25 20 L 10 25 L -10 30 L -25 20 L -35 0 L -30 -20 Z" fill="#90ee90" stroke="#333" stroke-width="1"/>
+    <!-- Continents shading -->
+    <path d="M -15 10 L 5 15 L 10 25 L 0 30 Z" fill="#7cb342" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Text indicators -->
+  <text x="500" y="280" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Engineering Excellence • Enterprise Solutions</text>
+</svg>

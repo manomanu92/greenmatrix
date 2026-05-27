@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Envelope -->
+  <rect x="30" y="50" width="140" height="100" fill="#fff" stroke="#333" stroke-width="2" rx="5"/>
+  <!-- Flap -->
+  <polygon points="30,50 100,90 170,50" fill="#e8e8e8" stroke="#333" stroke-width="2"/>
+  <!-- Letter lines -->
+  <line x1="40" y1="120" x2="160" y2="120" stroke="#ccc" stroke-width="2"/>
+  <line x1="40" y1="135" x2="160" y2="135" stroke="#ccc" stroke-width="2"/>
+  <!-- Contact circle background -->
+  <circle cx="100" cy="160" r="12" fill="#0066cc" opacity="0.3"/>
+  <!-- Phone symbol -->
+  <g transform="translate(145, 145)" stroke="#333" stroke-width="1.5" fill="none">
+    <path d="M -8 -3 L -8 5 Q -8 8 -5 8 L 5 8 Q 8 8 8 5 L 8 -3 Q 8 -6 5 -6 L -5 -6 Q -8 -6 -8 -3" stroke="#333" stroke-width="1.5" fill="none"/>
+    <circle cx="0" cy="4" r="1" fill="#333"/>
+  </g>
+</svg>
